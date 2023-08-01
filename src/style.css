@@ -97,3 +97,50 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .img-fluid .rounded {
+    display: none;
+  }
+
+  .container-content {
+    margin: 100px auto;
+    max-width: 380px;
+  }
+
+  .mb-3 {
+    margin-top: 20px;
+  }
+
+  .link-to-apps {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+  }
+
+  .link-to-apps {
+    margin: 0 auto;
+    max-width: 200px;
+  }
+
+  .email-link {
+    font-size: 16px;
+  }
+
+  .col-sm-4 {
+    margin-bottom: 20px;
+  }
+}
