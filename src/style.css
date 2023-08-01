@@ -33,6 +33,7 @@ p {
 .container-content {
   margin: 100px auto;
   max-width: 900px;
+  padding: 0 30px;
 }
 
 .navigation-links {
@@ -116,7 +117,7 @@ p {
   }
 
   .container-content {
-    max-width: 380px;
+    max-width: 500px;
   }
 
   .link-to-apps {
