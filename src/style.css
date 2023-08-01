@@ -112,17 +112,17 @@ p {
     font-size: 14px;
   }
 
-  .img-fluid .rounded {
+  .pictures-home {
     display: none;
   }
 
-  .container-content {
-    margin: 100px auto;
-    max-width: 380px;
+  .pics-about {
+    display: flex;
+    justify-content: center;
   }
 
-  .mb-3 {
-    margin-top: 20px;
+  .container-content {
+    max-width: 380px;
   }
 
   .link-to-apps {
@@ -134,6 +134,7 @@ p {
   .link-to-apps {
     margin: 0 auto;
     max-width: 200px;
+    margin-bottom: 0px !important;
   }
 
   .email-link {
