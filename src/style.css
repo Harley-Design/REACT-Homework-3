@@ -100,25 +100,19 @@ p {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 40px;
+    font-size: 46px;
+    line-height: 1.1;
   }
   h2 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 21px;
   }
   h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   p {
+    text-align: center;
     font-size: 14px;
-  }
-
-  .pictures-home {
-    display: none;
-  }
-
-  .pics-about {
-    display: flex;
-    justify-content: center;
   }
 
   .container-content {
@@ -126,15 +120,9 @@ p {
   }
 
   .link-to-apps {
-    display: flex;
-    justify-content: center;
-    max-width: 60%;
-  }
-
-  .link-to-apps {
-    margin: 0 auto;
-    max-width: 200px;
-    margin-bottom: 0px !important;
+    display: block;
+    text-align: center;
+    margin: 0 80px;
   }
 
   .email-link {
@@ -143,5 +131,12 @@ p {
 
   .col-sm-4 {
     margin-bottom: 20px;
+  }
+  .mt-5 {
+    margin-top: 20px !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 30px !important;
   }
 }
